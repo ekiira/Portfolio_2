@@ -1,0 +1,229 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+#first{
+    background: url(assets/bgg.jpg) no-repeat;
+    background-size: cover;
+    width:100% ;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    
+}
+.banner::after {
+      content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .7;
+}
+.top {
+    z-index: 100;
+}
+.rounded-circle{
+    width: 70px;
+    height:75px;
+}
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInLeft {
+  0% {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  }
+  @keyframes slideInLeft {
+  0% {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  } 
+
+#seventh{
+     background: url(assets/work2bg.jpg);
+    height:50%;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    color: white;
+}
+.bans::after{
+      content: "";
+    position: absolute;
+    
+    left: 0;
+    width: 100%;
+    /*height: 10%;*/
+    background-color: black;
+    opacity: .7;
+}
+.bans .ret{
+    position: relative;
+    z-index:100;
+}
+#fifth{
+    background: url(assets/work2bg.jpg);
+    height:50vh;
+    position: relative;
+    background-position: center;
+}
+#third{
+     background: url(assets/work2bg.jpg);
+    height:50vh;
+    position: relative;
+    background-position: center;
+    color:white;
+}
+.ban::after{
+      content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    opacity: .7;
+}
+/*.ret{*/
+/*    padding: 100px 0;*/
+/*}*/
+.ban .ret{
+    position: relative;
+    z-index:100;
+}
+.ban{
+    color: white;
+}
+.fass::before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 80px;
+    height: 2px;
+    width: 100px;
+    background: #333;
+    margin-left: -50px;
+}
+.fass::after{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 70px;
+    height: 2px;
+    width: 155px;
+    background: #333;
+    margin-left: -80px;
+}
+.navbar.scrolled{
+  background-color:black;
+  transition:background 500ms;
+}
+.nav-link{
+   color:red;
+}
+#first{
+    color: white;
+}
+#second{
+    background-color: white;
+}
+#third{
+    color:;
+}
+#fourth{
+    background-color: white;
+}
+h3{
+    font-weight: 800;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.work{
+    font-weight: 100;
+}
+a i{
+    color: black;
+}
+.btn{
+    border-radius:100px;
+    letter-spacing: 2px;
+}
+.icons{
+    font-size: 54px;
+}
+.h3{
+    font-size: 20px;
+    font-weight: 200;
+}
+#fourth i{
+    font-size: 27px;
+}
+#fourth .space{
+    line-height: 30px;
+}
+.progress-bar-text span{
+    float:right;
+}
+.left{
+    float:left;
+}
+.box{
+    border: 2px gray solid ;
+    letter-spacing: 2px;
+}
+.break{
+    letter-spacing: 3px;
+}
+#fourth .box:hover{
+    border-color: black;
+}
+#fifth .sty{
+    width: 35%;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    background: none;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+}
+#sixth{
+    background-color: white;
+}
+.form-control{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    box-shadow: 0;
+}
+#sixth #fullt {
+    height: 45px;
+}
+@media (max-width: 1200px) {
+ .wicon{
+    text-align:center;
+}
